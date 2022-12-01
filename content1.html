@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sleep - sleepyCAT</title>
+    <meta charset="utf-8">
+</head>
+
+<style>
+   nav{
+        background-color: rgb(73, 103, 162); 
+        position: absolute; 
+        height: 60px; 
+        width: 1515px;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+    body{
+        background-image: url("bg1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 25px;
+        overflow:auto;
+        padding-left: 150px;
+        padding-right: 150px;
+        min-width: 1100px;
+   }
+   #webname{
+        color: rgb(255, 255, 255);
+        font-family: fantasy;
+        font-size: 40px;
+        display:inline;
+        z-index: 1;
+    }
+    .aa{
+        color: rgb(203, 228, 255);
+        font-size: 25px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        text-align: center;
+    }
+    .aa:hover{
+        color: rgb(0, 0, 0);
+        background-image: url("moon.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .aaa{
+        color: rgb(203, 228, 255);
+        font-size: 25px;
+        border: 3px solid rgb(203, 228, 255);
+        border-radius: 5px;
+        padding: 0px 10px 0px 10px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+        left:450px;
+    }
+    .aaa:hover{
+        color: rgb(0, 0, 0);
+        border: 3px solid rgb(0, 0, 0);
+    }
+    div{
+        background-color:rgb(255, 255, 255); 
+        padding: 30px 100px 50px 100px;
+        border-radius: 10px;
+    }
+    h1{
+        color: rgb(21, 32, 56);
+        text-shadow: 3px 3px 3px rgb(169, 207, 248);
+    }
+    h3{
+        color: aliceblue;
+        text-shadow: 3px 3px 3px rgb(21, 32, 56);
+    }
+    .link{
+        color: rgb(41, 108, 179);
+        text-decoration: underline;
+        position: relative;
+        left: 20px;
+    }
+    .link:hover{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    li{
+        color:rgb(35, 79, 127);
+    }
+</style>
+
+<nav>
+    &emsp;&emsp; <p id="webname">sleepyCAT🌙</p> &emsp;&emsp;&emsp;
+    <a class="aa" href="main_page.html">Home</a> &emsp; 
+    <a class="aa" href="content1.html">Sleep</a> &emsp;
+    <a class="aa" href="content2.html">Sleep Cycle</a> &emsp; 
+    <a class="aa" href="music.html">Music</a> &emsp; 
+    <a class="aa" href="others.html">Other</a> &emsp; 
+    <a class="aaa" href="log_in.html">Logout</a> 
+</nav>
+
+<body>
+    <script>
+        function calc(){
+            var e = document.getElementById("length");
+            var value = e.value;
+            var text = e.options[e.selectedIndex].text;
+            var total = parseInt(hour.value) * value;
+
+            alert("You sleep "+ total +" hours in " + text + "!  z Z");
+        }
+    </script>
+
+    <br><br><br>
+    <div>
+        <h1>Why Do We Need To Sleep 🌙</h1>
+        <xx style="float: right;">
+            <img src="i1.jfif" alt="sleep1">       
+        </xx>  
+        <p>The human body regulates sleep the same way that it regulates eating, drinking, and breathing. While there are many theories out there that attempt to examine the biological reasoning behind the human need for sleep, there is no single hypothesis that definitively provides a scientifically-proven verdict.</p>
+        <p>Although we often think of sleep as a time when our bodies and brains shut down and go into autopilot mode, it's actually quite the opposite. While you're asleep, your body is hard at work, restoring energy, repairing cells, and releasing essential hormones. Sleep serves as the ultimate time to heal and recover so you can take on the next day feeling rejuvenated and sharp.</p>
+    </div>
+    <br><br>
+
+    <div>
+        <h1>How Much Sleep Did Human Need 🌙</h1>
+        <p>Knowing that we spend about ⅓ of our lives asleep, the average adult needs between 7 to 9 hours of sleep . For teens, children, and babies, the recommended hours of sleep per day increase. Check out the chart below to determine how much sleep is suggested for your age group.</p>
+        <table style="text-align: right; background-color: aliceblue; padding: 20px 40px 20px 40px;">
+            <tr>
+                <td rowspan="2"></td>
+                <td><b>0</b></td>
+                <td colspan="5" rowspan="2"></td>
+                <td><b>6</b></td>
+                <td colspan="5" rowspan="2"></td>
+                <td><b>12</b></td>
+                <td colspan="5" rowspan="2"></td>
+                <td><b>18</b></td>
+            </tr>
+            <tr style="font-size: 15px; color: rgb(41, 108, 179)">
+                <td><b>Hrs</b></td>
+                <td><b>Hrs</b></td>
+                <td><b>Hrs</b></td>
+                <td><b>Hrs</b></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="font-size: 40px;">&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td style="font-size: 40px;">&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td style="font-size: 40px;">&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td>&emsp;|</td>
+                <td style="font-size: 40px;">&emsp;|</td>
+            </tr>
+            <tr>
+                <td colspan="20" style="height: 5px;"></td>
+            </tr>
+            <tr>
+                <td>0-3 mo.</td>
+                <td></td>
+                <td colspan="17" rowspan="2" style="background-image: linear-gradient(to right, rgb(35, 79, 127) , rgb(188, 218, 244)); padding-right: 10px;">14-17 hrs.</td>
+            </tr>
+            <tr>
+                <td style="font-size:15px; color: rgb(41, 108, 179);"><b>Newborn</b></td>
+            </tr>
+            <tr>
+                <td>4-12 mo.</td>
+                <td></td>
+                <td colspan="16" rowspan="2" style="background-image: linear-gradient(to right, rgb(35, 79, 127) , rgb(188, 218, 244)); padding-right: 10px;">12-16 hrs.</td>
+            </tr>
+            <tr>
+                <td style="font-size:15px; color:rgb(41, 108, 179);"><b>Infant</b></td>
+            </tr>
+            <tr>
+                <td>1-2 yrs.</td>
+                <td></td>
+                <td colspan="14" rowspan="2" style="background-image: linear-gradient(to right, rgb(35, 79, 127) , rgb(188, 218, 244)); padding-right: 10px;">11-14 hrs.</td>
+            </tr>
+            <tr>
+                <td style="font-size:15px; color:rgb(41, 108, 179)"><b>Toddler</b></td>
+            </tr>
+            <tr>
+                <td>3-5 yrs.</td>
+                <td></td>
+                <td colspan="13" rowspan="2" style="background-image: linear-gradient(to right, rgb(35, 79, 127) , rgb(188, 218, 244)); padding-right: 10px;">10-13 hrs.</td>
+            </tr>
+            <tr>
+                <td style="font-size:15px; color:rgb(41, 108, 179)"><b>Preschool</b></td>
+            </tr>
+            <tr>
+                <td>6-12 yrs.</td>
+                <td></td>
+                <td colspan="12" rowspan="2" style="background-image: linear-gradient(to right, rgb(35, 79, 127) , rgb(188, 218, 244)); padding-right: 10px;">9-12 hrs.</td>
+            </tr>
+            <tr>
+                <td style="font-size:15px; color:rgb(41, 108, 179)"><b>School Age</b></td>
+            </tr>
+            <tr>
+                <td>13-18 yrs.</td>
+                <td></td>
+                <td colspan="10" rowspan="2" style="background-image: linear-gradient(to right, rgb(35, 79, 127) , rgb(188, 218, 244)); padding-right: 10px;">8-10 hrs.</td>
+            </tr>
+            <tr>
+                <td style="font-size:15px; color:rgb(41, 108, 179)"><b>Teen</b></td>
+            </tr>
+            <tr>
+                <td>18-60 yrs.</td>
+                <td></td>
+                <td colspan="18" rowspan="2" style="background-image: linear-gradient(to right, rgb(35, 79, 127) , rgb(188, 218, 244)); padding-right: 10px;">7+ hrs.</td>
+            </tr>
+            <tr>
+                <td style="font-size:15px; color:rgb(41, 108, 179)"><b>Adult</b></td>
+            </tr>
+            <tr>
+                <td>61-64 yrs.</td>
+                <td></td>
+                <td colspan="9" rowspan="2" style="background-image: linear-gradient(to right, rgb(35, 79, 127) , rgb(188, 218, 244)); padding-right: 10px;">7-9 hrs.</td>
+            </tr>
+            <tr>
+                <td style="font-size:15px;">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>65+ yrs.</td>
+                <td></td>
+                <td colspan="8" rowspan="2" style="background-image: linear-gradient(to right, rgb(35, 79, 127) , rgb(188, 218, 244)); padding-right: 10px;">7-8 hrs.</td>
+            </tr>
+            <tr>
+                <td style="font-size:15px;">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="background-color: rgb(57, 90, 131);">
+        <ul><li style="color: aliceblue;"><h3>Calculate your sleeping hours</h3></li></ul>
+        <label style="color: aliceblue; text-shadow: 3px 3px 3px rgb(21, 32, 56);">Hours sleep per day:&nbsp;</label>
+            <input type="number" id="hour" name="hour" value="0">
+            <select id="length">
+                <option id="week" value="7">1 week</option>
+                <option id="month" value="30">1 month</option>
+                <option id="year" value="365">1 year</option>
+                <option id="life" value="36500">A life</option>
+            </select>
+            <button onclick="calc()">Submit</button>
+            <p style="font-size: 18px; color: rgb(169, 207, 248);">Click <b>"Submit"</b> to calculate.</p>
+    </div>
+    <br><br>
+    
+    <div>
+        <h1>Importance Of Sleep 🌙</h1>
+        <xx style="position: relative; left: 100px; top: 4px; bottom: 30px;">
+            <img src="i2.jpeg" alt="sleep2" width="800px" height="400px">
+        </xx>
+        <ul>
+            <li><b>Energy conservation</b></li>
+                <p>According to the energy conservation theory, we need sleep to conserve energy. Sleeping allows us to reduce our caloric needs by spending part of our time functioning at a lower metabolism.</p>   
+            <li><b>Cellular restoration</b></li>
+                <p>Another theory, called the restorative theory, says the that sleep allows cells to repair and regrow. This is supported by many important processes that happen during sleep.</p>
+            <li><b>Brain function</b></li>
+                <p>The brain plasticity theory says sleep is required for brain function. Specifically, it allows neurons, or nerve cells, to reorganize.</p>
+            <li><b>Emotional well-being</b></li>
+                <p>Sleep is necessary for emotional health. During sleep, brain activity increases in areas that regulate emotion, thereby supporting healthy brain function and emotional stability.</p>
+            <li><b>Weight maintenance</b></li>
+                <p>Sleep affects weight by controlling hunger hormones. These hormones include ghrelin, which increases appetite, and leptin, which increases the feeling of being full after eating.</p>
+            <li><b>Proper insulin function</b></li>
+                <p>Sleep may protect against insulin resistance. It keeps cells healthy so they can easily take up glucose.</p>
+            <li><b>Immunity</b></li> 
+                <p>A healthy and strong immune system depends on sleep. ResearchTrusted Source shows that sleep deprivation can inhibit the immune response and make the body susceptible to germs.</p>  
+            <li><b>Heart health</b></li> 
+                <p>The Centers for Disease Control and Prevention (CDC) says the average adult needs 7 hoursTrusted Source of sleep a night. Getting less than that on a regular basis can lead to health problems, many of which can hurt heart health.</p>   
+        </ul>
+        <a  class="link" href="https://www.healthline.com/health/why-do-we-sleep#why-do-we-sleep">Know more</a>
+
+       
+           
+    </div>
+    <br><br>
+
+    <div>
+    <h1>What Happens When We Don't Get Enough Sleep 🌙</h1>
+        <p>If you've ever spent a night tossing and turning, sleeplessly watching time tick by, you know just how cranky, groggy, and under the weather you're going to feel the following morning.  There are a myriad of harrowing long-term effects of sleep deprivation that could take a serious toll on your well-being.</p>
+        <xx style="position: relative; left: 200px">
+            <img src="i5.jpg" alt="sleep5" width="600px" height="400px">       
+        </xx>
+        <ul>
+            <li><b>Heightened risk of diabetes</b></li>
+                <p>The human body's natural reaction to sleep deprivation can sometimes resemble insulin resistance—a precursor to type 2 diabetes. Insulin is responsible for helping the body convert glucose into energy and breakdown fats and proteins. When the body resists insulin, your cells fail to use the hormone efficiently, which then results in high blood sugar levels.</p>
+            <li><b>Heightened risk of high blood pressure</b></li>
+                <p>Prolonged lack of sleep could impair the body's ability to regulate stress hormones and lead to high blood pressure.</p>
+            <li><b>Impaired memory cognition</b></li>
+                <p>Many studies show that by getting only five hours of sleep a night, you can adversely affect your brain's ability to remember important information. Sleeplessness can lead to encoding failure which manifests in behaviors such as forgetting where you left your keys or the date of a birthday party you're supposed to attend.</p>
+            <li><b>Stunted concentration and problem-solving skills</b></li>
+                <p>Did you know that drowsy driving has been proven to be just as bad as driving drunk? Throughout history, sleep deprivation has been the culprit for many disasters, including the Three Mile Island nuclear disaster, the Exxon Valdez oil tanker spill, and the Bhopal, India gas tragedy. Though these were related to shift work and less associated with sleep deprivation, it still shows that general sleeplessness leads to poor performance and a significantly-decreased ability to concentrate and problem-solve.</p>
+            <li><b>Weakened immune system</b></li>
+                <p>Your immune system serves as your body's defense mechanism, protecting you from foreign invaders looking to divide and conquer. Without proper sleep, your immune system can become weakened and have trouble fighting off invaders. This can cause you to get sick more often and suffer through a slower recovery time when you do.</p>
+            <li><b>Heightened risk for heart disease</b></li>
+                <p>When you've gone too long without consistent, lengthy, deep sleep cycles, certain things occur which prohibit the body from reaching extended restoration cycles during which heart rate and blood pressure are lowered. Over time, this can lead to elevated blood pressure during the day and a greater risk of cardiovascular issues down the road.</p>
+            <li><b>Heightened risk for weight gain</b></li>
+                <p>According to The National Institute of Health (NIH), short sleepers on average consumed 500 more calories a day than people of the same age who slept 7 hours each night. When you get less sleep than ideal, you'll experience a different balance of hormones in your body that can lead you to crave unhealthy food with more calories.</p>
+        </ul>
+        
+    </div>
+</body>
+
+
+
+
+
+
+
+    
